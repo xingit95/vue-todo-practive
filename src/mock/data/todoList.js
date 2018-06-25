@@ -13,7 +13,7 @@ for(let i=1;i<COUNT.length;i++){
         text:Mock.Random.cparagraph(),
         isDelete:Mock.Random.boolean(),
         checked:Mock.Random.boolean()
-      };
+      }
     })
   }));
 }
