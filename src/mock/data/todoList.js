@@ -8,5 +8,12 @@ for(let i=1;i<COUNT.length;i++){
     title:Mock.Random.first(),
     isDelete:false,
     locked:Mock.Random.boolean(),
+    record:COUNT.map(()=>{
+      return {
+        text:Mock.Random.cparagraph(),
+        isDelete:Mock.Random.boolean(),
+        checked:Mock.Random.boolean()
+      };
+    })
   }));
 }
