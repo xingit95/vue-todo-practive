@@ -17,3 +17,7 @@ for(let i=1;i<COUNT.length;i++){
     })
   }));
 }
+
+export {
+  Todos
+};
